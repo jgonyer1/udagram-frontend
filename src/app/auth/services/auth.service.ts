@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { BehaviorSubject, Observable } from 'rxjs';
 import { User } from '../models/user.model';
-import { ApiService } from 'src/app/api/api.service';
+import { ApiService } from 'src/app/api/api-user.service';
 import { catchError, tap } from 'rxjs/operators';
 
 const JWT_LOCALSTORE_KEY = 'jwt';
